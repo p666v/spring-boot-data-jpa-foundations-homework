@@ -22,9 +22,6 @@ public class User {
     private Pet pet;
 
 
-
-
-
     @Override
     public String toString() {
         return "id: " + id + ", имя: " + name + ", возраст: " + age + ", питомец: " + pet;
